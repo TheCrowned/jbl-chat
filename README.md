@@ -18,7 +18,7 @@ One current shortcoming is the lack of pagination, especially in conversations. 
 
 I added an admin area to make some debugging easier, and `api-auth` to use the API with a frontend, but neither is strictly needed for the API to work.
 
-In my first commit I also pushed the `.sqlite` file I generated (even if it was in `.gitignore`). If you want to check that commit out, you can use `user=stefano, password=stefano` in the commands above to play with my implementation without having to generate a dataset - running the server is in that case the only required step. Otherwise, users should be created before using the app.
+In my first commit I also pushed the `.sqlite` file I generated (even if it was in `.gitignore`). If you want to check that commit out, you can use `user=stefano, password=stefano` in the commands above to play with my implementation without having to generate a dataset - running the server is in that case the only required step. You can use those credentials on my hosted instance. Otherwise, users should be created before using the app.
 
 -----------------------
 ## Assignment text
