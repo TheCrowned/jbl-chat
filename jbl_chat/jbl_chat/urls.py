@@ -21,6 +21,3 @@ urlpatterns = [
     path('api/', include('chat.urls')),
     path('api-auth/', include('rest_framework.urls')), # adds auth features to api interface
 ]
-
-# create messages with something like
-# http -a admin:admin POST http://127.0.0.1:8000/api/conversations/username/ code="content"
